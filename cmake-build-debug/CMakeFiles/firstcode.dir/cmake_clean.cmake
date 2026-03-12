@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/firstcode.dir/main.c.obj.d"
   "CMakeFiles/firstcode.dir/task2.c.obj"
   "CMakeFiles/firstcode.dir/task2.c.obj.d"
+  "CMakeFiles/firstcode.dir/task_3.c.obj"
+  "CMakeFiles/firstcode.dir/task_3.c.obj.d"
   "firstcode.exe"
   "firstcode.exe.manifest"
   "firstcode.pdb"

@@ -200,6 +200,30 @@ task2.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task2.c.s
 .PHONY : task2.c.s
 
+task_3.obj: task_3.c.obj
+.PHONY : task_3.obj
+
+# target to build an object file
+task_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task_3.c.obj
+.PHONY : task_3.c.obj
+
+task_3.i: task_3.c.i
+.PHONY : task_3.i
+
+# target to preprocess a source file
+task_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task_3.c.i
+.PHONY : task_3.c.i
+
+task_3.s: task_3.c.s
+.PHONY : task_3.s
+
+# target to generate assembly for a file
+task_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task_3.c.s
+.PHONY : task_3.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +242,9 @@ help:
 	@echo ... task2.obj
 	@echo ... task2.i
 	@echo ... task2.s
+	@echo ... task_3.obj
+	@echo ... task_3.i
+	@echo ... task_3.s
 .PHONY : help
 
 
