@@ -76,6 +76,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/j75-wang.CAMPUS/CLionProjects/ufmfgt-15-1-portfolio/cmake-build-debug/task2.c">
+			<Option target="firstcode"/>
+		</Unit>
 		<Unit filename="C:/Users/j75-wang.CAMPUS/CLionProjects/ufmfgt-15-1-portfolio/lab 1.c">
 			<Option target="firstcode"/>
 		</Unit>

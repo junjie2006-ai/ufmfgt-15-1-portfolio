@@ -176,6 +176,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/main.c.s
 .PHONY : main.c.s
 
+task2.obj: task2.c.obj
+.PHONY : task2.obj
+
+# target to build an object file
+task2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task2.c.obj
+.PHONY : task2.c.obj
+
+task2.i: task2.c.i
+.PHONY : task2.i
+
+# target to preprocess a source file
+task2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task2.c.i
+.PHONY : task2.c.i
+
+task2.s: task2.c.s
+.PHONY : task2.s
+
+# target to generate assembly for a file
+task2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\firstcode.dir\build.make CMakeFiles/firstcode.dir/task2.c.s
+.PHONY : task2.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +215,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... task2.obj
+	@echo ... task2.i
+	@echo ... task2.s
 .PHONY : help
 
 
