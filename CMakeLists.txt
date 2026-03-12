@@ -3,4 +3,4 @@ project(firstcode C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(firstcode main.c)
+add_executable(firstcode main.c "lab 1.c")
