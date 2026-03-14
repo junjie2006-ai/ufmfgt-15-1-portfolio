@@ -1,3 +1,0 @@
-C:/Users/j75-wang.CAMPUS/CLionProjects/ufmfgt-15-1-portfolio/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/j75-wang.CAMPUS/CLionProjects/ufmfgt-15-1-portfolio/cmake-build-debug/CMakeFiles/firstcode.dir
-C:/Users/j75-wang.CAMPUS/CLionProjects/ufmfgt-15-1-portfolio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
