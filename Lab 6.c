@@ -1,29 +1,40 @@
 #include <stdio.h>
 
-int main(){
-    int x1= 10, x2=20, x3;
-    int *ptr1, *ptr2, *ptr3;
 
-    printf(" Address of x1,x2,x3: %p %p %p\n\n", &x1,&x2,&x3);
-    printf("press enter to continue.....");
-    getchar();
+void foo1(int xval){
+    int x;
+    x =xval;
 
-    ptr1 = &x1;
-    printf("ptr1 now holds the address%p\n\n", ptr1);
-    printf(" Value pointed to by ptr1= &d\n\n",*ptr1);
+    printf(" The address of x is : %p \n", &x );
     printf("Press enter to continue.....");
     getchar();
+}
+
+void foo2(int yval){
+    int y;
+    y = yval;
+
+    printf(" The address of y is : %p \n", &y);
+    printf(" Press enter to continue");
+    getchar();
+
+}
+
+void foo3(int zval){
+    int z;
+    z = zval;
+    printf("The address of z is : %p \n",&z);
+    printf("Press enter to continue");
+    getchar();
+}
+int main(void){
+
+    foo1(7);
+    foo2(11);
+    foo3(13);
 
 
-    ptr2 = ptr1;
-    printf("Value pointed to by ptr2= %d\n\n", *ptr2);
 
-    ptr2 = &x2;
-    ptr3 = &x3;
-
-    *ptr3 = *ptr1 + *ptr2;
-
-    printf(" New value of x3 = %d\n\n",x3);
 
 
     return 0;
