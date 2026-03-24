@@ -9,7 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a610f4b-0f8d-4d0f-b6fa-4934043ca6e8" name="Changes" comment="lab3 part4">
+    <list default="true" id="3a610f4b-0f8d-4d0f-b6fa-4934043ca6e8" name="Changes" comment="part1">
       <change afterPath="$PROJECT_DIR$/Lab 4.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
@@ -82,7 +82,7 @@
       <workItem from="1774358174673" duration="829000" />
       <workItem from="1774359374345" duration="165000" />
       <workItem from="1774359602169" duration="1169000" />
-      <workItem from="1774375490218" duration="2714000" />
+      <workItem from="1774375490218" duration="2757000" />
     </task>
     <task id="LOCAL-00001" summary="lab3 part1">
       <created>1774360213579</created>
@@ -126,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1774380459877</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="part1">
+      <created>1774384864095</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774384864096</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="lab3 part3" />
     <MESSAGE value="lab3 part2" />
     <MESSAGE value="lab3 part4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab3 part4" />
+    <MESSAGE value="part1" />
+    <option name="LAST_COMMIT_MESSAGE" value="part1" />
   </component>
 </project>
