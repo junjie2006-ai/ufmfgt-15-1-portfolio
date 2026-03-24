@@ -1,35 +1,26 @@
 #include <stdio.h>
 
 int main() {
-    float num1, num2, num3, num4;
+    float a,b,c,d,temp;
 
-    printf("Enter first number: ");
-    scanf("%f", &num1);
+    printf("Enter four numbers:\n");
+    scanf("%f %f %f %f", &a, &b, &c, &d);
 
-    printf("Enter second number: ");
-    scanf("%f", &num2);
+    if (a > b) { temp = a; a = b; b = temp; }
+    if (a > c) { temp = a; a = c; c = temp; }
+    if (a > d) { temp = a; a = d; d = temp; }
 
-    printf("Enter third number: ");
-    scanf("%f", &num3);
+    if (b > c) { temp = b; b = c; c = temp; }
+    if (b > d) { temp = b; b = d; d = temp; }
 
-    printf("Enter fourth number: ");
-    scanf("%f", &num4);
+    if (c > d) { temp = c; c = d; d = temp; }
 
-    float minimum = num1;
 
-    // Compare and update
-    if (num2 < minimum) {
-        minimum = num2;
-    }
+    printf("\nAscending order: %.2f %.2f %.2f %.2f\n", a, b, c, d);
 
-    if (num3 < minimum) {
-        minimum = num3;
-    }
 
-    if (num4 < minimum) {
-        minimum = num4;
-    }
-    printf("The minimum value is: %.2f\n", minimum);
+    printf("Descending order: %.2f %.2f %.2f %.2f\n", d, c, b, a);
+
     return 0;
 }
 
