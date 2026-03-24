@@ -1,27 +1,35 @@
 #include <stdio.h>
 
 int main() {
-    float a,b,c,d,temp;
+    int num;
 
-    printf("Enter four numbers:\n");
-    scanf("%f %f %f %f", &a, &b, &c, &d);
+    printf("Enter a control value (-10 to 10): ");
+    scanf("%d", &num);
 
-    if (a > b) { temp = a; a = b; b = temp; }
-    if (a > c) { temp = a; a = c; c = temp; }
-    if (a > d) { temp = a; a = d; d = temp; }
+    // 1. Validation Range Check
+    if (num >= -10 && num <= 10) {
 
-    if (b > c) { temp = b; b = c; c = temp; }
-    if (b > d) { temp = b; b = d; d = temp; }
+        // 2a. Check if positive, negative, or zero
+        if (num > 0) {
+            printf("The value is positive.\n");
+        } else if (num < 0) {
+            printf("The value is negative.\n");
+        } else {
+            printf("The value is zero.\n");
+        }
 
-    if (c > d) { temp = c; c = d; d = temp; }
+        // 2b. Check if odd or even using the modulo operator (%)
+        // We use the absolute value logic or check remainder != 0 for odd
+        if (num % 2 == 0) {
+            printf("The value is even.\n");
+        } else {
+            printf("The value is odd.\n");
+        }
 
-
-    printf("\nAscending order: %.2f %.2f %.2f %.2f\n", a, b, c, d);
-
-
-    printf("Descending order: %.2f %.2f %.2f %.2f\n", d, c, b, a);
+    } else {
+        // Error for inputs outside the range
+        printf("Error: Input %d is outside the valid range (-10 to 10).\n", num);
+    }
 
     return 0;
 }
-
-
