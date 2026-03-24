@@ -9,10 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a610f4b-0f8d-4d0f-b6fa-4934043ca6e8" name="Changes" comment="lab3 part2">
+    <list default="true" id="851a2de4-15f3-416a-a8ee-7c49e034e45a" name="Changes" comment="part 1">
+      <change afterPath="$PROJECT_DIR$/lab4.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3 task1.c" beforeDir="false" afterPath="$PROJECT_DIR$/lab3 .c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab 4.c" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
