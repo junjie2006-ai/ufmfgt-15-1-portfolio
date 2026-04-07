@@ -8,6 +8,7 @@ typedef struct{
 } WaveformSample;
 
 double compute_rms(WaveformSample *data, int count, char phase);
-
+double compute_peak_to_peak(WaveformSample *data, int count, char phase);
+double compute_dc_offset(WaveformSample *data, int count, char phase );
 
 #endif //UNTITLED2_WAVEFORM_H
